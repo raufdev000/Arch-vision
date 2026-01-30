@@ -920,5 +920,22 @@ form .btn-dark:hover{
   .nav-logo {
     order: -1;
     margin-bottom: 10px;
+  
+  }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 476px) {
+  .nav-center {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .nav-logo {
+    order: -1;
+    margin-bottom: 10px;
+    height: 30px;
+  
   }
 }
